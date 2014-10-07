@@ -1,0 +1,78 @@
+/* 20 24 27 */
+/* 28 34 39 */
+/* 212 214 215 */
+/* open sans #555555 */
+
+body {
+	font-family: courier;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#header {
+	background-color: rgb(0, 0, 0);
+	height: 190px;
+	width: 100%;
+	text-align: center;
+}
+
+#logo {
+	display: inline-block;
+	position: relative;
+	left: -100px;
+	top: 10px;
+}
+
+#tittel {
+	position: relative;
+	top: -55px;
+	left: -90px;
+	display: inline;
+	width: 14em;
+	font-size: 60px;
+	font-weight: bold;
+	padding: 10px 10px;
+	color: rgb(255, 255, 255);
+	margin: 0 auto;
+}
+#kc {
+	display: inline;
+	color: rgb(102, 183, 24);
+	opacity: 0.8;
+}
+
+#meny {
+	position: relative;
+	top: -35px;
+	color: #003388;
+	width: 90%;
+	min-width: 900px;
+	text-align: center;
+	bottom: -10px;
+}
+
+.knapp {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);	
+	display: inline-block;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px 10px;
+}
+
+.knapp:hover{
+	cursor: pointer;
+}
+
+#innhold {
+	margin: 20px 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 100, 0);
+}
