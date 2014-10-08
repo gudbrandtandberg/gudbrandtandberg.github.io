@@ -19,6 +19,7 @@
 			$(".knapp").click(function(){
 				var skalTil = $(this).attr("id")+".html";
 				$("#innhold").load(skalTil);
+				window.history
 			})
 		});
 	</script>
@@ -26,8 +27,7 @@
 
 <body>
 	<div id="header">
-		<img id="logo" src="kodeklubb_logo.png">
-		<div id="tittel">RØA <div id = kc>KODEKLUBB</div></div>
+		
 		<div id="meny">
 			<div class="knapp" id="hjem">
 				HJEM
